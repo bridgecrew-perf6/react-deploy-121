@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {ShipperProvider} from './components/Shipper' 
 
 ReactDOM.render(
   <React.StrictMode>
+    <ShipperProvider>
     <App />
+    </ShipperProvider>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
