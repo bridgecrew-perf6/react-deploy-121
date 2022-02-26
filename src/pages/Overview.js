@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container} from 'reactstrap';
 import MiddleForm from '../components/MiddleForm';
 import DownForm from '../components/DownForm';
+import DownForm2 from '../components/DownForm-2';
 import EndingForm from '../components/EndingForm';
 import number1 from '../pages/picture/introduce/number1.jpg'
 import number2 from '../pages/picture/introduce/number2.jpg'
@@ -29,7 +30,7 @@ const Overview = () => {
       link ={a}
       title ="Title 1"
     />
-    <DownForm
+    <DownForm2
       link ={b}
       title ="Title 2"
     />
@@ -37,7 +38,7 @@ const Overview = () => {
       link ={c}
       title ="Title 3"
     />
-    <DownForm
+    <DownForm2
       link ={d}
       title ="Title 4"
     />
